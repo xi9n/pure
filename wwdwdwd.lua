@@ -48,7 +48,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
         ['Interval'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0), ['[TacticalShotgun]'] = (0), ['[Revolver]'] = (0) } }, --[[ In MS ]]--
         --[[ Cursor mode doesn't work on offbrands due to hitboxes, use this Magnitude instead ]]
-        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (50), Y = (50) }, ['[TacticalShotgun]'] = { X = (50), Y = (50) }, ['[Revolver]'] = { X = (50), Y = (50) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
+        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (26), Y = (50) }, ['[TacticalShotgun]'] = { X = (40), Y = (50) }, ['[Revolver]'] = { X = (26), Y = (50) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
     },
 
     ["Physics"] = {
@@ -63,7 +63,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Modifications"] = {   --[[ Specific To Da Hood Only (NO OFFBRANDS) ]]                                     
         ['Cooldown Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.35), ['[Revolver]'] = (0.13) } },                                                                                                                                                                                       
         ['Client Redirection'] = { ['Enabled'] = (false) }, 
-        ['Spread Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (.82), ['[TacticalShotgun]'] = (.82), ['[Shotgun]'] = (0.8), ['[Drum-Shotgun]'] = (1) }, ['Randomizer'] = { ['Enabled'] = (true), ['Value'] = math.random(0.1, 0.4) } },
+        ['Spread Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (.82), ['[TacticalShotgun]'] = (.82), ['[Shotgun]'] = (0.8), ['[Drum-Shotgun]'] = (1) }, ['Randomizer'] = { ['Enabled'] = (true), ['Value'] = math.random(0.3, 0.4) } },
         ['Delay Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.00475), ['[Revolver]'] = (0.00275) } }, 
         ['Double Tap'] = { ['Enabled'] = (true), ['Toggle'] = ('L'), ['Weapon'] = { ('[Silencer]'), ('[Revolver]') } }, --[[ Pistols Only ]]
         ['Beam Color'] = { ['Enabled'] = (false), ['Color'] = (Color3.new(0.560784, 0.894117, 0.901960)) },
@@ -89,7 +89,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (100) },
-        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (true), ['Width'] = (4), ['Height'] = (6) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (5), ['Height'] = (7) }
     },
 }
 
