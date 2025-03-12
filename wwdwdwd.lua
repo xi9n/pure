@@ -48,7 +48,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
         ['Interval'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0), ['[TacticalShotgun]'] = (0), ['[Revolver]'] = (0) } }, --[[ In MS ]]--
         --[[ Cursor mode doesn't work on offbrands due to hitboxes, use this Magnitude instead ]]
-        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (60), Y = (60) }, ['[TacticalShotgun]'] = { X = (60), Y = (60) }, ['[Revolver]'] = { X = (60), Y = (60) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
+        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (40), Y = (50) }, ['[TacticalShotgun]'] = { X = (40), Y = (50) }, ['[Revolver]'] = { X = (40), Y = (50) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
     },
 
     ["Physics"] = {
@@ -89,7 +89,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (100) },
-        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (10), ['Height'] = (10) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (20), ['Height'] = (20) }
     },
 }
 
