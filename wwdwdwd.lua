@@ -62,7 +62,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
 
     ["Modifications"] = {   --[[ Specific To Da Hood Only (NO OFFBRANDS) ]]                                     
         ['Cooldown Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.1), ['[Revolver]'] = (0.01) } },                                                                                                                                                                                       
-        ['Client Redirection'] = { ['Enabled'] = (false) }, 
+        ['Client Redirection'] = { ['Enabled'] = (true) }, 
         ['Spread Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (.82), ['[TacticalShotgun]'] = (.82), ['[Shotgun]'] = (0.8), ['[Drum-Shotgun]'] = (1) }, ['Randomizer'] = { ['Enabled'] = (true), ['Value'] = math.random(0.5, 0.8) } },
         ['Delay Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.001), ['[Revolver]'] = (0.001) } }, 
         ['Double Tap'] = { ['Enabled'] = (true), ['Toggle'] = ('L'), ['Weapon'] = { ('[Silencer]'), ('[Revolver]') } }, --[[ Pistols Only ]]
