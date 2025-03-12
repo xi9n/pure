@@ -48,7 +48,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
         ['Interval'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0), ['[TacticalShotgun]'] = (0), ['[Revolver]'] = (0) } }, --[[ In MS ]]--
         --[[ Cursor mode doesn't work on offbrands due to hitboxes, use this Magnitude instead ]]
-        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (20), Y = (50) }, ['[TacticalShotgun]'] = { X = (20), Y = (50) }, ['[Revolver]'] = { X = (26), Y = (50) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
+        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (30), Y = (50) }, ['[TacticalShotgun]'] = { X = (30), Y = (50) }, ['[Revolver]'] = { X = (26), Y = (50) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
     },
 
     ["Physics"] = {
