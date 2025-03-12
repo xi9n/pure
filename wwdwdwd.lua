@@ -20,7 +20,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
     
     ["AimAssist"] = {
-        ['Enabled'] = (true),
+        ['Enabled'] = (false),
         ['Toggle'] = ('P'), --[[ For Target Mode ]]
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (false), --[[ Single Target ]]
