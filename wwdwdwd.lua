@@ -20,12 +20,12 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
     
     ["AimAssist"] = {
-        ['Enabled'] = (false),
-        ['Toggle'] = ('C'), --[[ For Target Mode ]]
-        ['Bezier'] = (false), --[[ -- ]]
+        ['Enabled'] = (true),
+        ['Toggle'] = ('P'), --[[ For Target Mode ]]
+        ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (false), --[[ Single Target ]]
 
-        ['Smoothing'] = { ['Enabled'] = (false), ['Ground'] = (1), ['Air'] = (1) },
+        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.22), ['Air'] = (0.44) },
 
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.11), ['Air'] = (0.11) },
                                                             --[[ Basic, Advanced ]]
@@ -42,17 +42,17 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Toggle'] = ('P'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
         ['Field'] = ('Magnitude'), --[[ Cursor, Magnitude ]]
-        ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
+        ['Type'] = ('Toggle'),  --[[ Toggle, Hold ]]
     
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.125), ['Air'] = (0.125), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
         ['Interval'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0), ['[TacticalShotgun]'] = (0), ['[Revolver]'] = (0) } }, --[[ In MS ]]--
         --[[ Cursor mode doesn't work on offbrands due to hitboxes, use this Magnitude instead ]]
-        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (26), Y = (50) }, ['[TacticalShotgun]'] = { X = (40), Y = (50) }, ['[Revolver]'] = { X = (26), Y = (50) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
+        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (60), Y = (60) }, ['[TacticalShotgun]'] = { X = (60), Y = (60) }, ['[Revolver]'] = { X = (60), Y = (60) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
     },
 
     ["Physics"] = {
-        ['Walking'] = { ['Enabled'] = (true), ['Toggle'] = ('V'), ['Amount'] = (5) }, 
+        ['Walking'] = { ['Enabled'] = (true), ['Toggle'] = ('V'), ['Amount'] = (4) }, 
         ['Falling'] = { ['Enabled'] = (true) }, --[[ Anti Fall ]]
         ['Jumping'] = { ['Enabled'] = (false) }, --[[ No Jump Cooldown ]]
         ['Velocity'] = { ['Always On'] = (false), ['Magnitude'] = 950 }
@@ -61,10 +61,10 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ['Raid Awareness'] = { ['Enabled'] = (false), ['Select'] = ('T'), ['Clear'] = ('Z'), ['Outlines'] = (false), ['Box'] = (true), ['Name'] = (true) },
 
     ["Modifications"] = {   --[[ Specific To Da Hood Only (NO OFFBRANDS) ]]                                     
-        ['Cooldown Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.35), ['[Revolver]'] = (0.13) } },                                                                                                                                                                                       
+        ['Cooldown Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.1), ['[Revolver]'] = (0.01) } },                                                                                                                                                                                       
         ['Client Redirection'] = { ['Enabled'] = (false) }, 
-        ['Spread Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (.82), ['[TacticalShotgun]'] = (.82), ['[Shotgun]'] = (0.8), ['[Drum-Shotgun]'] = (1) }, ['Randomizer'] = { ['Enabled'] = (true), ['Value'] = math.random(0.3, 0.4) } },
-        ['Delay Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.00475), ['[Revolver]'] = (0.00275) } }, 
+        ['Spread Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (.82), ['[TacticalShotgun]'] = (.82), ['[Shotgun]'] = (0.8), ['[Drum-Shotgun]'] = (1) }, ['Randomizer'] = { ['Enabled'] = (true), ['Value'] = math.random(0.5, 0.8) } },
+        ['Delay Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.001), ['[Revolver]'] = (0.001) } }, 
         ['Double Tap'] = { ['Enabled'] = (true), ['Toggle'] = ('L'), ['Weapon'] = { ('[Silencer]'), ('[Revolver]') } }, --[[ Pistols Only ]]
         ['Beam Color'] = { ['Enabled'] = (false), ['Color'] = (Color3.new(0.560784, 0.894117, 0.901960)) },
         --[[
